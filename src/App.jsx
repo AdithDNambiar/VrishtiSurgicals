@@ -25,8 +25,8 @@ import {
 import { useState } from "react";
 import "./App.css";
 
-const PHONE = "9497145480";
-const DISPLAY_PHONE = "+91 9497145480";
+const PHONE = "9400070548";
+const DISPLAY_PHONE = "+91 9400070548";
 const EMAIL = "vgtpvtltd@gmail.com";
 const ADDRESS =
   "Crown Plaza Building, Opp. Pariyaram Medical College, Pariyaram, Kannur, Kerala, India - 670503";
