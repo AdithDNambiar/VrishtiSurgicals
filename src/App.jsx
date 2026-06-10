@@ -324,8 +324,7 @@ Message: ${message}`;
             <Clock />
             <div>
               <strong>Working Hours</strong>
-              <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
-              <p>Sunday: 10:00 AM - 5:00 PM</p>
+              <p>Mon - Sat: 9:00 AM - 7:00 PM</p>
             </div>
           </div>
         </div>
