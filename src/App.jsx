@@ -255,7 +255,7 @@ Message: ${message}`;
 
     <div className="directorCard">
       <img
-        src="/vrishtiMD.png"
+        src="/vrishtiMD.jpeg"
         alt="Manoharan P.R"
         className="directorImage"
       />
@@ -273,7 +273,7 @@ Message: ${message}`;
 
     <div className="directorCard">
       <img
-        src="/vrishtiDrctr.png"
+        src="/vrishtiDrctr.jpeg"
         alt="Rethika Manoharan"
         className="directorImage"
       />
