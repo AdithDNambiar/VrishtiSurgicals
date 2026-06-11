@@ -25,7 +25,7 @@ import {
 import { useState } from "react";
 import "./App.css";
 
-const PHONE = "9400070548";
+const PHONE = "+91 9400070548";
 const DISPLAY_PHONE = "+91 9400070548";
 const EMAIL = "vgtpvtltd@gmail.com";
 const ADDRESS =
@@ -88,7 +88,7 @@ function App() {
   const requirement = form.requirement.value;
   const message = form.message.value;
 
-  const text = `Hi Vrishti Surgicals,
+  const text = `Hi Vrishti Surgicals Pvt.Ltd.,
 
 Name: ${name}
 Phone: ${phone}
@@ -105,7 +105,7 @@ Message: ${message}`;
 
   <div className="logoText">
     <h2>Vrishti</h2>
-    <span>SURGICALS</span>
+    <span>SURGICALS PVT.LTD.</span>
   </div>
 </a>
 
@@ -192,7 +192,8 @@ Message: ${message}`;
       </section>
 
       <section className="section soft">
-        <p className="sectionLabel">Why Choose Vrishti Surgicals</p>
+        <p className="sectionLabel">Why Choose Vrishti Surgicals Pvt.Ltd.
+        </p>
         <h2>Our Commitment to Quality & Care</h2>
 
         <div className="chooseGrid">
@@ -216,7 +217,7 @@ Message: ${message}`;
           <p className="sectionLabel">About Us</p>
           <h2>Your Trusted Partner in Healthcare Supplies</h2>
           <p>
-            Vrishti Surgicals is a reliable supplier of high-quality surgical
+            Vrishti Surgicals Pvt.Ltd. is a reliable supplier of high-quality surgical
             and medical products. We are committed to providing safe, effective
             and affordable healthcare essentials to hospitals, clinics,
             pharmacies, laboratories and home care patients.
@@ -245,6 +246,51 @@ Message: ${message}`;
           </div>
         </div>
       </section>
+
+      <section className="section directorsSection">
+  <p className="sectionLabel">Leadership Team</p>
+  <h2>Meet The Directors</h2>
+
+  <div className="directorsGrid">
+
+    <div className="directorCard">
+      <img
+        src="/vrishtiMD.png"
+        alt="Manoharan P.R"
+        className="directorImage"
+      />
+
+      <div className="directorContent">
+        <h3>Manoharan P.R</h3>
+        <span>Managing Director</span>
+
+        <p>
+          Leading Vrishti Surgicals with a commitment to quality healthcare
+          products, customer satisfaction and trusted service.
+        </p>
+      </div>
+    </div>
+
+    <div className="directorCard">
+      <img
+        src="/vrishtiDrctr.png"
+        alt="Rethika Manoharan"
+        className="directorImage"
+      />
+
+      <div className="directorContent">
+        <h3>Rethika Manoharan</h3>
+        <span>Director</span>
+
+        <p>
+          Dedicated to strengthening healthcare accessibility through reliable
+          medical supplies, innovation and operational excellence.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
       <section className="section">
         <p className="sectionLabel">Featured Products</p>
@@ -324,7 +370,7 @@ Message: ${message}`;
             <Clock />
             <div>
               <strong>Working Hours</strong>
-              <p>Mon - Sat: 9:00 AM - 7:00 PM</p>
+              <p>Mon - Sat: 9:00 AM - 6:30 PM</p>
             </div>
           </div>
         </div>
@@ -351,7 +397,7 @@ Message: ${message}`;
 
         <div className="mapBox realMap">
   <iframe
-    title="Vrishti Surgicals"
+    title="Vrishti Surgicals Pvt. Ltd."
     src="https://maps.google.com/maps?q=12.0680642,75.2952021&z=17&output=embed"
     loading="lazy"
     allowFullScreen
@@ -395,7 +441,7 @@ Message: ${message}`;
         </div>
 
         <div className="copyright">
-          © 2018 Vrishti Surgicals. All Rights Reserved.
+          © 2018 Vrishti Surgicals Pvt.Ltd. All Rights Reserved.
         </div>
       </footer>
 

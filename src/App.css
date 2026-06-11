@@ -811,4 +811,74 @@ footer h3 {
     width: 52px;
     height: 52px;
   }
+
+  .directorsGrid {
+  grid-template-columns: 1fr;
+}
+
+.directorImage {
+  height: 320px;
+}
+
+.directorContent h3 {
+  font-size: 22px;
+}
+}
+
+/* DIRECTORS */
+
+.directorsSection {
+  background: #fff;
+}
+
+.directorsGrid {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.directorCard {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(6, 36, 92, 0.08);
+  transition: 0.3s;
+}
+
+.directorCard:hover {
+  transform: translateY(-6px);
+}
+
+.directorImage {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
+.directorContent {
+  padding: 28px;
+}
+
+.directorContent h3 {
+  margin: 0;
+  color: var(--navy);
+  font-size: 28px;
+}
+
+.directorContent span {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.directorContent p {
+  margin-top: 18px;
+  color: var(--muted);
+  line-height: 1.8;
 }
