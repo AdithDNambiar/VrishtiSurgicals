@@ -261,7 +261,7 @@ Message: ${message}`;
       />
 
       <div className="directorContent">
-        <h3>Manoharan P.R</h3>
+        <h3>P.R Manoharan</h3>
         <span>Managing Director</span>
 
         <p>
