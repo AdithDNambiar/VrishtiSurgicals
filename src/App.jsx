@@ -33,7 +33,7 @@ const ADDRESS =
 
 const categories = [
   { title: "Mobility & Patient Care", desc: "Wheelchairs, commode chairs, walkers, air beds and patient support items", icon: Hospital },
-  { title: "Respiratory Care", desc: "Nebulizers, oxygen concentrators, masks, tubes and respiratory accessories", icon: HeartPulse },
+  { title: "Respiratory Care", desc: "Nebulizers, masks, tubes and respiratory accessories", icon: HeartPulse },
   { title: "Wound Care & Dressings", desc: "Cotton, crepe bandages, adhesive bandages, gauze, dressings and tapes", icon: ClipboardCheck },
   { title: "Ostomy Care", desc: "Colostomy bags, urostomy bags, barrier creams, base plates and ostomy belts", icon: PackageCheck },
   { title: "Disinfectants & Hygiene", desc: "Hand rubs, body wash, tinctures, cleaning solutions and hygiene products", icon: ShieldCheck },
@@ -47,7 +47,6 @@ const categories = [
 const products = [
   { title: "Wheelchair", icon: Hospital },
   { title: "Nebulizer Machine", icon: HeartPulse },
-  { title: "Oxygen Concentrator", icon: HeartPulse },
   { title: "BP Monitor", icon: Stethoscope },
   { title: "Digital Thermometer", icon: Thermometer },
   { title: "Pulse Oximeter", icon: HeartPulse },
@@ -149,8 +148,7 @@ Message: ${message}`;
           </h1>
 
           <p>
-            Quality healthcare essentials including wheelchairs, nebulizers,
-            oxygen concentrators, wound care products, ostomy supplies,
+            Quality healthcare essentials including wheelchairs, nebulizers, wound care products, ostomy supplies,
             diagnostic devices, first aid kits and more.
           </p>
 
